@@ -1,0 +1,19 @@
+h1
+{
+    font-style: italic;
+
+}
+
+p
+{
+    color: blue;
+
+}
+
+table, th, td
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 1pc;
+    
+}

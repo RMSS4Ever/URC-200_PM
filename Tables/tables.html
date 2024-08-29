@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+    <title>
+
+    </title>
+
+    <head>
+        <!-- Link to CSS stylesheet -->
+         <link rel="stylesheet" href="tables.css">
+
+    </head>
+
+    <body>
+        <h1>This is just a Test!</h1>
+        <p>Just a test to see if I did this correctly</p>
+
+        <!-- Working on tables still -->
+         <table div="table1">
+            <tr>
+                <th colspan="2">Name</th>
+                <th>Age</th>
+            </tr>
+
+            <tr>
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>43</td>
+            </tr>
+
+            <tr>
+                <td>Eve</td>
+                <td>Jackson</td>
+                <td>72</td>
+            </tr>
+
+         </table>
+
+         <br>
+         <hr>
+
+         <table>
+            <tr>
+                <th>Characteristic</th>
+                <th>Specification</th>
+
+            </tr>
+        </table>
+
+        <br>
+
+        <table div="operating_modes">
+            <th colspan="2">Operating Modes</th>
+            <tr>
+                <td>Plain Text (PT)</td>
+                <td>AM or FM </td>
+            </tr>
+
+            <tr>
+                <td>Cipher Text (CT)</td>
+                <td>AM or FM</td>
+
+            </tr>
+
+            <tr>
+                <td>T-R</td>
+                <td>Relay mode, each of 10 preset channels may have separate receive and <br>
+                    transmit frequencies.</td>
+            </tr>
+
+            <tr>
+                <td>Beacon</td>
+                <td>Transmit an emergency audio sweep tone on any selected frequency.</td>
+            </tr>
+
+            <tr>
+                <td>Scan </td>
+                <td>Scan upto 10 channels.</td>
+            </tr>
+
+        </table>
+
+    <br>
+
+        <table div="bandwidth">
+            <tr>
+                <th colspan="2">Bandwidth</th>
+            </tr>
+            <tr>
+                <td>IF Selectivity</td>
+                <td>PT: &PlusMinus;9.5 kHz, 6 dB down<br>
+                    CT: &#177;15 kHz, 6 dB down</td>
+            </tr>
+            <tr>
+                <td>Audio Response</td>
+                <td>PT: 300 to 3000 Hz, (+2, -4 dB)<br>
+                    CT: 30 Hz to 10.24 kHz, (+2, -4 dB)</td>
+            </tr>
+
+        </table>
+
+        <br>
+
+        <table div="receiver_characteristics">
+            <tr>
+                <th colspan="2">Receiver Characteristics</th>
+            </tr>
+            <tr>
+                <td>Sensitivity<br>(10 dB SINAD)</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>AM-CT</td>
+                <td>&#8804; -105 dBm (1.3 &#181;V), 16 kb/sec with 70% modulation</td>
+            </tr>
+            <tr>
+                <td>AM-PT</td>
+                <td>&#8804; -103.5 dBm (1.5 &#181;V), 1 kHz modulation at 30%</td>
+            </tr>
+            <tr>
+                <td>FM-CT</td>
+                <td>&#8804; -107 dBm (1.0 &#181;V), 16 kb/sec with +-5.6 kHz deviation</td>
+            </tr>
+            <tr>
+                <td>FM-PT</td>
+                <td>&#8804; -114 dBm (0.4 &#181;V), 1 kHz modulation with +-6.5 kHz deviation</td>
+            </tr>
+            <tr>
+                <td>Input Impedance</td>
+                <td>50 &Omega; nominal</td>
+            </tr>
+            <tr>
+                <td>RF Signal Level<br>at the antenna port</td>
+                <td>FM: No signal to +25 dBm, No signal to 315 mW (typcial)<br>
+                    AM: No signal to 0 dBm, No signal to 1.0 mW (typical)<br>
+                    FM or AM: +27 dBm (500 mW) maximum for short durations without<br>damage.</td>
+            </tr>
+            <tr>
+                <td>Image Response</td>
+                <td>80 dB (typical)</td>
+            </tr>
+            <tr>
+                <td>Spurious Response</td>
+                <td>80 dB (typical)</td>
+            </tr>
+            <tr>
+                <td>Squelch</td>
+                <td>Manual adjust, carrier-to-noise-ratio squelch, changing to carrier-level<br>
+                    squelch at stronger signal levels.</td>
+            </tr>
+            <tr>
+                <td>Squelch Range</td>
+                <td>-110 dBm (0.7 &#181;V) to -80 dBm (22.3 &#181;V) nominal.</td>
+            </tr>
+            <tr>
+                <td>Distortion</td>
+                <td>AM: 10% Max, RF = -33 dBm (5 mV), 1 kHz @ 85% AM Modulation<br>
+                    FM: 10% Max, RF = -33 dBm (5 mV), 1 kHz @ &PlusMinus;6.5 kHz Modulation</td>
+            </tr>
+            <tr>
+                <td>Adjacent Channel<br>Rejection</td>
+                <td>25 kHz: 35 dB typical<br>
+                    8.33 kHz: 45 dB typical (ECS-8 option only)</td>
+            </tr>
+        </table>
+       
+        <br>
+
+        <table div="transmiter_characteristics">
+            <tr>
+                <th colspan="6">Transmiter Characteristics</th>
+            </tr>
+            <tr>
+                <th>High Power<br>Output Mode</th>
+                <th>Tolerance</th>
+                <th>Expressed in<br>Watts Avg.</th>
+                <th>Expressed in<br>dBm Avg.</th>
+                <th>Expressed in<br>CW</th>
+                <th>Expressed in<br>dBm CW</th>
+            </tr>
+            <tr rowspan="2">
+                <td>AM<br>(at 80% AM PT &PlusMinus;5%)</td>
+            </tr>
+
+            <tr>
+                <td rowspan="3"></td>
+                <td>Maximum<br>(+2 dBm)</td>
+                <td>7.94 Watts</td>
+                <td>39 dBm</td>
+                <td>6.02 Watts</td>
+                <td>37.9 dBm</td>
+            </tr>
+            <tr>
+                <td>Typical</td>
+                <td>5 Watts</td>
+                <td>37 dBm</td>
+                <td>3.79 Watts</td>
+                <td>35.8 dBm</td>
+            </tr>
+            <tr>
+                <td>Minimum<br>-2 dBm</td>
+                <td>3.16 Watts</td>
+                <td>35 dBm</td>
+                <td>2.39 Watts</td>
+                <td>33.8 dBm</td>
+            </tr>
+
+        </table>
+
+
+    </body>
+
+</html>

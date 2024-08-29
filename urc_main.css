@@ -1,0 +1,94 @@
+details p
+{
+    color: brown;
+}
+
+figure
+{
+
+}
+
+h1
+{
+    color: black;
+    font-weight: bold;
+    font-weight: bolder;
+
+}
+
+h2
+{
+    color: black;
+    
+}
+
+header
+{
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+
+main_header
+{
+
+}
+
+/*
+<h2 style="color: blue;"><strong>NOTE</strong></h2>
+<p style="color: dodgerblue;">This section does not include system-level performance tests to check the <br>
+    various URC-200 options listed in Paragraph 1.8.1 of Section 1.</p>
+*/
+
+note
+{
+    color: blue;
+    font-weight: bold;
+
+}
+
+note p
+{
+    color: green;
+    font-weight: 600;
+
+}
+
+p_header
+{
+    color: black;
+
+}
+
+p_header_nr
+{
+    text-decoration: line-through;
+
+}
+
+sub_header
+{
+    color: black;
+    font-style:italic;
+    font-weight: bold;
+
+}
+
+summary
+{
+    color: red;
+
+}
+
+table
+{
+    font-weight: bold;
+
+}
+
+warning
+{
+    color: red;
+
+}

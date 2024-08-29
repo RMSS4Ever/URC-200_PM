@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Link to the style sheet -->
+    <link rel="stylesheet" href="urc_main.css">
+
+</head>
+
+<body>
+    <!-- Page header -->
+    <h1>URC-200(v)1 PM SHEET</h1>
+
+    <!-- Main Page -->
+    <main_header>
+        <h1>SECTION 4.2.1  TEST EQUIPMENT REQUIRED</h1>
+    </main_header>
+
+    <hr>
+
+    <nav>
+        <h2>Quick Links:</h2>
+        <a href=".\4-2-1.html" target="_blank">4.2.1 - TEST EQUIPMENT REQUIRED</a>
+        <a href="4.2.2">4.2.2 - RECEIVER TESTS</a>
+        <a href="4.2.2.1">4.2.2.1 - Receiver FM PT Sensitivity and Distortion tests</a>
+        <a href="4.2.2.3">4.2.2.3 - Receiver AM PT Sensitivity and Distortion tests</a>
+        <a href="4.2.2.6">4.2.2.6 - Squelch Sensitivity test</a>
+        <a href="4.2.3">4.2.3 - TRANSMITTER TESTS</a>
+        <a href="4.2.3.1">4.2.3.1 - Transmitter Tests Setup - Frequency Accuracy and FM Power Output</a>
+        <a href="4.2.3.2">4.2.3.2 - Transmitter Tests Setup - FM PT Deviation and Distortion</a>
+        <a href="4.2.3.4">4.2.3.4 - Transmitter Tests Setup - AM Power Output, PT % Modulation, and PT Distortion</a>
+        <a href="4.4">4.4 - ALIGNMENT PROCEDURES</a>
+        <a href="4.5">4.5 - POWER SUPPLY VOLTAGES</a>
+        <a href="4.5.1">4.5.1 - INPUT VOLTAGE</a>
+        <a href="4.5.2">4.5.2 - OUTPUT VOLTAGE</a>
+    
+    </nav>
+
+    <summary>
+        Please bear with me at this page is under construction.
+    </summary>
+
+</body>
+
+</html>

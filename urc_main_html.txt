@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Link to the style sheet -->
+    <link rel="stylesheet" href="urc_main.css">
+
+    <title>URC-200(v)1 PM Procedures</title>
+
+</head>
+
+<body>
+    <!-- Page header -->
+    <h1>URC-200(v)1 PM SHEET</h1>
+
+    <!-- Main Page -->
+    <main_header>
+        <h1>SECTION 4.  SYSTEM MAINTENANCE</h1>
+    </main_header>
+
+    <hr>
+
+    <nav>
+        <h2>Quick Links:</h2>
+            <ul>
+                <li><a href="4-2-1.html" target="_blank">4.2.1  - TEST EQUIPMENT REQUIRED</a></li>
+                <li><a href="4.2.2" target="_blank">4.2.2   - RECEIVER TESTS</a></li>
+                <li><a href="4.2.2.1" target="_blank">4.2.2.1   - Receiver FM PT Sensitivity and Distortion tests</a></li>
+                <li><a href="4.2.2.3" target="_blank">4.2.2.3 - Receiver AM PT Sensitivity and Distortion tests</a></li>
+                <li><a href="4.2.2.6" target="_blank">4.2.2.6 - Squelch Sensitivity test</a></li>
+                <li><a href="4.2.3" target="_blank">4.2.3 - TRANSMITTER TESTS</a></li>
+                <li><a href="4.2.3.1" target="_blank">4.2.3.1 - Transmitter Tests Setup - Frequency Accuracy and FM Power Output</a></li>
+                <li><a href="4.2.3.2" target="_blank">4.2.3.2 - Transmitter Tests Setup - FM PT Deviation and Distortion</a></li>
+                <li><a href="4.2.3.4" target="_blank">4.2.3.4 - Transmitter Tests Setup - AM Power Output, PT % Modulation, and PT Distortion</a></li>
+                <li><a href="4.4" target="_blank">4.4 - ALIGNMENT PROCEDURES</a></li>
+                <li><a href="4.5" target="_blank">4.5 - POWER SUPPLY VOLTAGES</a></li>
+                <li><a href="4.5.1" target="_blank">4.5.1 - INPUT VOLTAGE</a></li>
+                <li><a href="4.5.2" target="_blank">4.5.2 - OUTPUT VOLTAGE</a></li>
+            </ul>
+    
+    </nav>
+
+    <header><h2>4.1 GENERAL INFORMATION</h2></header>
+    <article>
+        <p>This section provides a system-level performance test to check all operations of the URC-200 Radio Set.</p>
+        <p>The following are also provided:</p>
+        <ul>
+            <li>Procedures to localize a malfunction to a defective module.</li><br>
+            <li>Procedures for removal and replacement of all replaceable modules.</li><br>
+            <li>List of required tools and test equipment.</li><br>
+        </ul>
+    </article>
+
+    
+    <note>NOTE<br>
+        <p>This section does not include system-level performance tests to check the <br>
+        various URC-200 options listed in Paragraph 1.8.1 of Section 1.</p>
+    </note>
+
+    <warning>!!!WARNING!!!</warning>
+
+    <header>
+        <h2>4.2     MANUAL SYSTEM TESTS</h2>
+    </header>
+
+    <section_test_equipment>
+    4.2.1   TEST EQUIPMENT REQUIRED
+    
+            <table>Table 4-1   Test Equipment Required</table>
+            <table>Table 4-2   Alternate Test Equipment</table>
+
+    </section_test_equipment>
+    
+    <section_receiver_tests>
+    <article>4.2.2   RECEIVER TESTS</article>
+    
+        <h3>4.2.2.1     Receiver FM PT Sensitivity and Distortion</h3>
+            <p>This is a temporary holding spot while I learn.</p>
+        
+            <table>Table 4-3   FM Frequency Presets</table>
+            <fig><img src="C:\Users\brian.scarlett\OneDrive - United States Marine Corps\Documents_(OneDrive)\Coding\Web_Development\Projects\URC_Radio_PMs\Images\Figure_4-1.jpg" alt="Figure 4-1. Receiver Test Equipment Setup" style="width: 25%; height: 30%;"></fig>
+            <figcaption>Figure 4-1. Receiver Test Equipment Setup</figcaption>
+
+        <h3>4.2.2.2     NOT REQUIRED</h3>
+            <p>This paragraphy is under construction.</p>
+        <h3>4.2.2.3     Receive AM PT Sensitivity and Distorition</h3>
+            <p>This paragraphy is reserved for future use.</p>
+
+            <table>Table 4-4   AM Frequency Presets</table>
+
+        <p><p_header_nr>4.2.2.4     NOT REQUIRED</p_header_nr></p>
+        <p><p_header_nr>4.2.2.5     NOT REQUIRED</p_header_nr></p>
+        <p><p_header>4.2.2.6     Squelch Sensitivity</p_header></p>
+
+    </section_receiver_tests>
+
+    4.2.3   TRANSMITTER TESTS
+    </sub_header>
+        <p><p_header>4.2.3.1     Transmitter Tests Setup - Frequency Accuracy and FM Power Output</p_header></p>
+
+            <figure>Figure 4-2  Transmitter Test Setup</figure>
+            <table>Table 4-3   FM Frequency Presets</table>
+
+        <p><p_header>4.2.3.2     Transmitter Test Setup - FM PT Deviation and Distortion</p_header></p>
+        <p><p_header_nr>4.2.3.3     NOT REQUIRED</p_header_nr></p>
+        <p><p_header>4.2.3.4     Transmitter Test Setup - AM Power Output, PT, % Modulation, and Distorition</p_header></p>
+
+    <header>
+        <h2>4.3     TROUBLESHOOTING CHARTS</h2>
+    </header>
+        <sub_header>4.3.1   TRANSMIT AND RECEIVE TROUBLESHOOTING CHART</sub_header>
+        <sub_header>4.3.2   TRANSMIT TROUBLESHOOTING CHART</sub_header>
+        <sub_header>4.3.3   RECEIVE TROUBLESHOOTING CHART</sub_header>
+
+    <header>
+        <h2>4.4     ALIGNMENT PROCEDURES</h2>
+    </header>
+
+    <header>
+        <h2>4.5     POWER SUPPLY VOLTAGES</h2>
+    </header>
+        <sub_header>4.5.1   INPUT VOLTAGE</sub_header>
+        <sub_header>4.5.2   OUTPUT VOLTAGE</sub_header>
+    
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Link to the style sheet -->
+    <link rel="stylesheet" href="urc_main_2.css">
+
+</head>
+
+<body>
+    <h1>URC-200(v)1 PM Sheet</h1>
+
+    <form action="/action_page.php">
+        <label for="serialno">URC-200 Serial #: </label><br>
+        <input type="text" id="serialno" name="serialno" value="A1234"><br>
+        <label for="pmDate">Date: </label><br>
+        <input type="date" id="pmDate" name="pmDate" value="MM/DD/YYYY"><br>
+
+    </form>
+
+
+<!-- Trying out the .css stylepage syntax to get shit correct. 
+    <div class="London">
+        <h2>London</h2>
+        <p>London is the capital city of England.</p>
+        <p>London has over 13 million inhabitants.</p>
+
+    </div>
+
+    <div class="Oslow">
+        <h2>Oslow</h2>
+        <p>Oslo is the capital city of Norway.</p>
+        <p>Oslow has over 600,000 inhabitants.</p>
+
+    </div>
+
+    <div class="Rome">
+        <h2>Rome</h2>
+        <p>Rome is the capital of Italy.</p>
+        <p>Rome has almost 3 million inhabitants.</p>
+
+    </div>
+
+--> 
+
+<main_heading><h1>SECTION 4. SYSTEM MAINTENANCE</h1></main_heading>
+
+
+<hr> <!-- Line bar -->
+
+<nav>
+    <h2>Quick Links:</h2>
+    <a href="4.2.1">4.2.1 - TEST EQUIPMENT REQUIRED</a>
+    <a href="4.2.2">4.2.2 - RECEIVER TESTS</a>
+    <a href="4.2.2.1">4.2.2.1 - Receiver FM PT Sensitivity and Distortion tests</a>
+    <p>4.2.2.3 - Receiver AM PT Sensitivity and Distortion tests</p>
+    <p>4.2.2.6 - Squelch Sensitivity test</p>
+    <p>4.2.3 - TRANSMITTER TESTS</p>
+    <p>4.2.3.1 - Transmitter Tests Setup - Frequency Accuracy and FM Power Output</p>
+    <p>4.2.3.2 - Transmitter Tests Setup - FM PT Deviation and Distortion</p>
+    <p>4.2.3.4 - Transmitter Tests Setup - AM Power Output, PT % Modulation, and PT Distortion</p>
+    <p>4.4 - ALIGNMENT PROCEDURES</p>
+    <p>4.5 - POWER SUPPLY VOLTAGES</p>
+    <P>4.5.1 - INPUT VOLTAGE</P>
+    <P>4.5.2 - OUTPUT VOLTAGE</P>
+
+</nav>
+
+<heading><h2>4.1 GENERAL INFORMATION</h2></heading>
+
+<article>
+<p>This section provides a system-level performance test to check all operations of the URC-200 Radio Set. </p>
+
+<ul>The following are also provided:<br>
+    <br><li>Procedures to localize a malfunction to a defective module.</li><br>
+    <li>Procedures for removal and replacement of all replaceable modules.</li><br>
+    <li>List of required tools and test equipment.</li><br>
+</ul>
+</article>
+
+<notes>
+<!-- A note section. Want text color blue, the "NOTE" to be bold and in h2 size
+     The text of the note to be enclosed in a box with blue borders.
+    Center the enter NOTE section-->
+
+<h2 style="color: blue;"><strong>NOTE</strong></h2>
+<p style="color: dodgerblue;">This section does not include system-level performance tests to check the <br>
+    various URC-200 options listed in Paragraph 1.8.1 of Section 1.</p>
+</notes>
+
+<sections_unit>
+    <h2>4.2 MANUAL SYSTEM TEST</h2>
+</sections_unit>
+
+<sections>
+    <p>The manual system test checks the operating parameters of the URC-200 under test, using Motorola's Communications System Analyzer (R2600 series)
+        as the primary test equipment.</p>
+</sections>
+
+<warnings>
+    <!--- Color: red, alignment: centered, text enclosed in a red bordered box -->
+    <h2><strong>!!! WARNING !!!</strong></h2>
+    <p>Electromagnetic radiation from the antenna can damage eyes and other <br>body tissue when unit is transmitting. While the unit is transmitting, do not <br>
+    hold the antenna closer than 9 cm (3.54 inches) to any part of the body.</p>
+
+</warnings>
+
+<sections>
+    <h2>4.2.1 TEST EQUIPMENT REQUIRED</h2>
+    <P>Testing and troubleshooting the radio requires the test equipment listed in Table 4-1. If a R2600 Communications System Analyzer is not available, 
+    the alternate test equipment listed in Table 4-2 may be substituted to perform its functions. A schematic diagram for the breakout box is shown
+    in Figure 4-4 at the end of the section</P>
+
+</sections>
+
+<tables>
+    <tables_head>
+        <h3>Table 4-1. Test Equipment Required</h3>
+    </tables_head>
+    
+    <!-- Create a box with two columns: 
+        Column 1: Column names 
+        Column 2: Items needed -->
+
+    <table>
+        <tr>
+            <th>QTY</th>
+            <th>Description</th>
+            <th>Part No.</th>
+            <th>Supplier</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Power Supply, 28 Vdc, 5A</td>
+            <td>HP-6291-A</td>
+            <td>Hewlett-Packard</td>
+        </tr>
+
+        <tr>
+            <td>1</th>
+            <td>Communications System Analyzer</td>
+            <td>R2600</td>
+            <td>Motorola</td>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Breakout Box For X-MODE Connector</td>
+            <td>-</td>
+            <td>-</td>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Current Meter</td>
+            <td>HP-428B</td>
+            <td>Hewlett-Packard</td>
+        </tr>
+
+    </table>
+    <br>
+
+    <tables_head>
+        <h3>Table 4-2. Alternate Test Equipment</h3>
+    </tables_head>
+
+    <table>
+        <tr>
+            <th>QTY</th>
+            <th>Description</th>
+            <th>Part No.</th>
+            <th>Supplier</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Frequency Counter</td>
+            <td>HP-5383A</td>
+            <td>Hewlett-Packard</td>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Signal Generator</td>
+            <td>HP-8640B</td>
+            <td>Hewlett-Packard</td>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Distortion Analyzer</td>
+            <td>HP-334A</td>
+            <td>Hewlett-Packard</td>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Digital Voltmeter</td>
+            <td>HP-3465A</td>
+            <td>Hewlett-Packard</td>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>RMS Voltmeter</td>
+            <td>HP-3400A</td>
+            <td>Hewlett-Packard</td>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>30 dB, 100-Watt Power Attenuator</td>
+            <td>769-30</td>
+            <td>Narda</td>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>3 dB Power Attenuator</td>
+            <td>766-3</td>
+            <td>Narda</td>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Power Meter</td>
+            <td>HP-436A</td>
+            <td>Hewlett-Packard</td>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Modulation Meter</td>
+            <td>HP-8901 A</td>
+            <td>Hewlett-Packard</td>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Audio Oscillator</td>
+            <td>HP-201 C</td>
+            <td>Hewlett-Packard</td>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Oscilloscope</td>
+            <td>465</td>
+            <td>Tektronix</td>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Power Supply, 28 Vdc, 5A</td>
+            <td>HP-6291A</td>
+            <td>Hewlett-Packard</td>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Breakout Box for X-MODE Connector</td>
+            <td>-</td>
+            <td>-</td>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Current Meter</td>
+            <td>HP-428B</td>
+            <td>Hewlett-Packard</td>
+        </tr>
+
+    </table>
+
+    <warnings>
+        <!--- Color: red, alignment: centered, text enclosed in a red bordered box -->
+        <h2><strong>!!! WARNING !!!</strong></h2>
+        <p>Lithium batteries may be used in the URC-200 Radio Set. Lithium batteries <br>
+            contain hazardous and reactive materials. Dispose of used batteries according <br>to prescribed 
+            lithium battery handling plan. <u><strong>DO NOT THROW THE <br>BATTERIES IN THE UNCONTROLLED TRASH.</strong></u>
+            Improper handling, reverse<br>-current operation or high environmental temperatures may cause internally <br>
+            generated heat, fire, explosion, or release of toxic materials and gases.</p>
+    
+    </warnings>    
+
+<sections>
+    <p>The following tests evaluate the performance of the receiver circuits. The functions that will be tested are 
+        receiver sensitivity and distortion at various frequencies in AM and FM, and in CT and PT modes. Squelch 
+        sensitivity will also be checked.    </p>
+
+</sections>
+
+<sections>
+    <h2>4.2.2.1 - Receiver FM PT Sensitivity and Distortion</h2>
+
+    <!--                    Insert picture of Figure 4-1 here                   -->
+
+    <p><ol>
+        <li>Set up the test equipment as shown in <u><strong>Figure 4-1</strong></u>. </li>
+        <li>Set the input power supply to 28 +- 0.1 Vdc.</li>
+        <li>Preset the R2600 by performing the following steps:</li>
+            <ol type="a">
+                <li>Press the MEM (Memory) key on the R2600 panel for the preset-screen.</li>
+                <li>Use the CURSOR POSITION keys to highlight preset 01.</li>
+                <li>Press the "View Preset" softkey. (Note: The softkeys are the eight keys under the CRT 
+                    screen on the R2600).</li>
+                <li>Using the CURSOR POSITION keysl, move to the Monitor Frequency position and enter 
+                    115.000 from the R2600 keypad.</li>
+                <li>Move the cursor to the <strong>[Generate Frequency]</strong> position and enter 115.000 from the R2600 keypad</li>
+                <li>Move the cursor to the <strong>[Modulation Type]</strong> and press the "FM" softkey.</li>
+                <li>Move the cursor to the <strong>[Bandwidth]</strong> and press the "NARROW +-5 KHz" softkey.</li>
+                <li>Move the cursor to the <strong>[Duplex Offset]</strong> position and press the "DON'T CARE" softkey.</li>
+                <li>Move the cursor to the <strong>[Synth Format Sel]</strong> (Synthesizer Format Select) and select the "<strong>Tone A</strong>" softkey.</li>
+                <li>Move the cursor to the <strong>[Freq]</strong> (Frequency) and enter 01000.0 from the keypad.</li>
+                <li>Move the cursor to the <strong>[DTMF Code]</strong> position and press the "DON'T CARE" softkey. (Note: The "More" softkey may have to be depressed for the "DON'T CARE" softkey to be displayed).</li>
+                <li>Press the "Return" softkey. Repeat steps a through k for presents 02 through 10. Use <u>Table 4-3</u> to program the frequency presets in steps d and e above.</li>
+                <li>Press the "return" softkey.</li>
+
+            </ol>
+
+            <!--            Insert Table 4-3 FM Frequency Presets here         -->            
+    <tables_head>
+        <h3>Table 4-3 FM Frequency Presets</h3>
+        
+    </tables_head>
+    <p style="color: red;">This section is under construction</p>
+        
+        <li>Perform the following steps to complete the setup on the R2600 analyzer:</li>
+            <ol type="a">
+                <li>Press the <strong>[RF]</strong> key on the R2600 panel. Move the cursor to <strong>[RF Control]</strong> and press the "GEN" softkey.</li>
+                <li>Move the cursor to the <strong>[Output Lvl]</strong> (RF Output Level) position and enter a level of -050.0 dBm from the keypad.</li>
+                <li>Move the cursor to the <strong>[Gen RF Out]</strong> position and press the "RF IN/OUT" softkey.</li>
+                <li></li>
+            </ol>
+    </ol></p>
+
+</sections>
+
+<sections>
+    <h2>4.2.2.3     Receive AM PT Sensitivity and Distortion</h2>
+    <p>
+
+    </p>
+</sections>
+
+<sections>
+    <h2>4.2.2.6     Squelch Sensitivity test</h2>
+    <p>
+
+    </p>
+</sections>
+
+<sections_unit>
+    <h2>4.2.3       TRANSMITTER TESTS</h2>
+</sections_unit>
+
+<sections>
+    <h2>4.2.3.1     Transmitter Tests Setup - Frequency Accuracy and FM Power Output</h2>
+</sections>
+
+</tables>
+
+</body>
+
+</html>

@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Link to external style sheets-->
+        <link rel="stylesheet" href="urc_200v1_pm_form.css">
+        <link rel="stylesheet" href="urc_200v1_pm_form.js">
+
+    </head>
+
+    <body>
+        <h1>URC-200(v)1 PM Record Sheet</h1>
+
+        <h2>FM Receive Tests</h2>
+
+<!--
+        <section>
+            Monitor<br>
+            Mem<br>
+            Channel #<br>
+            <br>
+
+            01
+            02
+            03
+            04<br>
+            05<br>
+            06<br>
+            07<br>
+            08<br>
+            09<br>
+            10<br>
+            LVHF<br>
+            LVHF<br>
+            <br>
+            <figcaption>NOTE: For Xmit testing, change monitor from Narrow Band to Wide Band</figcaption>
+            <note>NOTE: This is a test of my own semantic element</note>
+
+
+        </section>
+
+    <!-- Trying out W3Schools "Responsive Four Column Layout with Flex" --
+    <h2>Responsive Four Column Layout with Flex</h2>
+    <p><strong>Resize the browser window to see the responsive effect.</strong> On screens that
+    are 992px wide or less, the columns will resize from four columns to two columns. On screens 
+that are 600px wide or less, the columns will stack on top of each other instead of next to
+each other.</p>
+
+    <div class="row">
+        <div class="column" style="background-color: #aaa;">
+            <h2>Column 1</h2>
+            <p>Some text ...</p>
+        </div>
+
+        <div class="column" style="background-color: #bbb;">
+            <h2>Column 2</h2>
+            <p>Some more text ...</p>
+        </div>
+
+        <div class="column" style="background-color: #ccc;">
+            <h2>Column 3</h2>
+            <p>Some additional text ...</p>
+        </div>
+
+        <div class="column" style="background-color: #ddd;">
+            <h2>Column 4</h2>
+            <p>And finally ... no more text</p>
+        </div>
+    </div>
+
+-->
+
+<!-- Trying out Tables as found on Bing using GhatGPT -->
+
+    <table>
+        <tr class="col_names">
+            <th>Monitor<br> Mem<br> Channel #</th>
+            <th>Frequency</th>
+            <th>SINAD<br>(<= -104 dBm)</th>
+            <th>External<br>Distortion<br>(10% Max)</th>
+            <br>
+            <br>
+            <th>High Pwr<br>40 dB<br>(+- 2 dB)</th>
+            <th>Med Pwr<br>37 dB<br>(+- 2 dB)</th>
+            <th>Low Pwr<br>20 dB<br>(Nominal)</th>
+            <th>Freq<br>Error (Hz)</th>
+            <th>PPM *<br>(5 PPM)</th>
+            <th>Deviation<br>VHF +- 3.3 KHz<br>UHF +- 6.5 Khz</th>
+            <th>External<br>Distortion<br>(10% Max)</th>
+            <th>Squelch<br>Sensitivity</th>
+
+        </tr>
+    
+    <hr> <!-- This isn't working. Find what will work. -->
+    <br>
+
+        <tr class="row_names">
+            <th>01</th>
+            <th>115.000 MHz</th>
+            <td class="input_data">Row 1, Cell 3</td>
+            <td class="input_data">Row 1, Cell 4</td>
+            <td class="input_data">Row 1, Cell 5</td>
+            <td class="input_data">Row 1, Cell 6</td>
+            <td class="input_data">Row 1, Cell 7</td>
+            <td class="input_data">Row 1, Cell 8</td>
+            <td class="input_data">Row 1, Cell 9</td>
+            <td class="input_data">Row 1, Cell 10</td>
+            <td class="input_data">Row 1, Cell 11</td>
+
+        </tr>
+
+        <tr class="row_names">
+            <th>02</th>
+            <th>145.025 MHz</th>
+            <td class="input_data">Row 2, Cell 3</td>
+            <td class="input_data">Row 2, Cell 4</td>
+            <td class="input_data">Row 2, Cell 5</td>
+            <td class="input_data">Row 2, Cell 6</td>
+            <td class="input_data">Row 2, Cell 7</td>
+            <td class="input_data">Row 2, Cell 8</td>
+            <td class="input_data">Row 2, Cell 9</td>
+            <td class="input_data">Row 2, Cell 10</td>
+            <td class="input_data">Row 2, Cell 11</td>
+
+        </tr>
+
+        <tr class="data">
+            <th>03</th>
+            <th>173.975 MHz</thd>
+            <td class="input_data">Row 3, Cell 3</td>
+            <td class="input_data">Row 3, Cell 4</td>
+            <td class="input_data">Row 3, Cell 5</td>
+            <td class="input_data">Row 3, Cell 6</td>
+            <td class="input_data">Row 3, Cell 7</td>
+            <td class="input_data">Row 3, Cell 8</td>
+            <td class="input_data">Row 3, Cell 9</td>
+            <td class="input_data">Row 3, Cell 10</td>
+            <td class="input_data">Row 3, Cell 11</td>
+
+        </tr>
+
+        <tr class="data">
+            <th>04</th>
+            <th>225.075 MHz</th>
+            <td class="input_data">Row 4, Cell 3</td>
+            <td class="input_data">Row 4, Cell 4</td>
+            <td class="input_data">Row 4, Cell 5</td>
+            <td class="input_data">Row 4, Cell 6</td>
+            <td class="input_data">Row 4, Cell 7</td>
+            <td class="input_data">Row 4, Cell 8</td>
+            <td class="input_data">Row 4, Cell 9</td>
+            <td class="input_data">Row 4, Cell 10</td>
+            <td class="input_data">Row 4, Cell 11</td>
+
+        </tr>
+
+        <tr class="data">
+            <th>05</th>
+            <th>275.000 MHz</th>
+            <td class="input_data">Row 5, Cell 3</td>
+            <td class="input_data">Row 5, Cell 4</td>
+            <td class="input_data">Row 5, Cell 5</td>
+            <td class="input_data">Row 5, Cell 6</td>
+            <td class="input_data">Row 5, Cell 7</td>
+            <td class="input_data">Row 5, Cell 8</td>
+            <td class="input_data">Row 5, Cell 9</td>
+            <td class="input_data">Row 5, Cell 10</td>
+            <td class="input_data">Row 5, Cell 11</td>
+
+        </tr>
+
+        <tr class="data">
+            <th>06</th>
+            <th>299.975 MHz</th>
+            <td class="input_data">Row 6, Cell 3</td>
+            <td class="input_data">Row 6, Cell 4</td>
+            <td class="input_data">Row 6, Cell 5</td>
+            <td class="input_data">Row 6, Cell 6</td>
+            <td class="input_data">Row 6, Cell 7</td>
+            <td class="input_data">Row 6, Cell 8</td>
+            <td class="input_data">Row 6, Cell 9</td>
+            <td class="input_data">Row 6, Cell 10</td>
+            <td class="input_data">Row 6, Cell 11</td>
+
+        </tr>
+
+        <tr class="data">
+            <th>07</th>
+            <th>300.000 MHz</th>
+            <td class="input_data">Row 7, Cell 3</td>
+            <td class="input_data">Row 7, Cell 4</td>
+            <td class="input_data">Row 7, Cell 5</td>
+            <td class="input_data">Row 7, Cell 6</td>
+            <td class="input_data">Row 7, Cell 7</td>
+            <td class="input_data">Row 7, Cell 8</td>
+            <td class="input_data">Row 7, Cell 9</td>
+            <td class="input_data">Row 7, Cell 10</td>
+            <td class="input_data">Row 7, Cell 11</td>
+
+        </tr>
+
+        <tr class="data">
+            <th>08</th>
+            <th>312.000 MHz</th>
+            <td class="input_data">Row 8, Cell 3</td>
+            <td class="input_data">Row 8, Cell 4</td>
+            <td class="input_data">Row 8, Cell 5</td>
+            <td class="input_data">Row 8, Cell 6</td>
+            <td class="input_data">Row 8, Cell 7</td>
+            <td class="input_data">Row 8, Cell 8</td>
+            <td class="input_data">Row 8, Cell 9</td>
+            <td class="input_data">Row 8, Cell 10</td>
+            <td class="input_data">Row 8, Cell 11</td>
+            <td class="input_data">Row 8, Cell 12</td>
+        </tr>
+
+        <tr class="data">
+            <th>09</th>
+            <th>355.000 MHz</th>
+            <td class="input_data">Row 9, Cell 3</td>
+            <td class="input_data">Row 9, Cell 4</td>
+            <td class="input_data">Row 9, Cell 5</td>
+            <td class="input_data">Row 9, Cell 6</td>
+            <td class="input_data">Row 9, Cell 7</td>
+            <td class="input_data">Row 9, Cell 8</td>
+            <td class="input_data">Row 9, Cell 9</td>
+            <td class="input_data">Row 9, Cell 10</td>
+            <td class="input_data">Row 9, Cell 11</td>
+
+        </tr>
+
+        <tr class="data">
+            <th>10</th>
+            <th>399.975 MHz</th>
+            <td class="input_data">Row 10, Cell 3</td>
+            <td class="input_data">Row 10, Cell 4</td>
+            <td class="input_data">Row 10, Cell 5</td>
+            <td class="input_data">Row 10, Cell 6</td>
+            <td class="input_data">Row 10, Cell 7</td>
+            <td class="input_data">Row 10, Cell 8</td>
+            <td class="input_data">Row 10, Cell 9</td>
+            <td class="input_data">Row 10, Cell 10</td>
+            <td class="input_data">Row 10, Cell 11</td>
+
+        </tr>
+
+        <tr class="data">
+            <th>LVHF (No Tone Squelch)</th>
+            <th>30.350 MHz</th>
+            <td class="input_data">Row 11, Cell 3</td>
+            <td class="input_data">Row 11, Cell 4</td>
+            <td class="input_data">Row 11, Cell 5</td>
+            <td class="input_data">Row 11, Cell 6</td>
+            <td class="input_data">Row 11, Cell 7</td>
+            <td class="input_data">Row 11, Cell 8</td>
+            <td class="input_data">Row 11, Cell 9</td>
+            <td class="input_data">Row 11, Cell 10</td>
+            <td class="input_data">Row 11, Cell 11</td>
+
+        </tr>
+
+        <tr class="data">
+            <th>LVHF ( No Tone Squelch)</th>
+            <th>40.350 MHz</th>
+            <td class="input_data">Row 12, Cell 3</td>
+            <td class="input_data">Row 12, Cell 4</td>
+            <td class="input_data">Row 12, Cell 5</td>
+            <td class="input_data">Row 12, Cell 6</td>
+            <td class="input_data">Row 12, Cell 7</td>
+            <td class="input_data">Row 12, Cell 8</td>
+            <td class="input_data">Row 12, Cell 9</td>
+            <td class="input_data">Row 12, Cell 10</td>
+            <td class="input_data">Row 12, Cell 11</td>
+
+        </tr>
+
+        <tr class="data">
+            <th>LVHF (Tone Squelch)</th>
+            <th>30.350 MHz</th>
+            <td class="input_data">Row 13, Cell 3</td>
+            <td class="input_data">Row 13, Cell 4</td>
+            <td class="input_data">Row 13, Cell 5</td>
+            <td class="input_data">Row 13, Cell 6</td>
+            <td class="input_data">Row 13, Cell 7</td>
+            <td class="input_data">Row 13, Cell 8</td>
+            <td class="input_data">Row 13, Cell 9</td>
+            <td class="input_data">Row 13, Cell 10</td>
+            <td class="input_data">Row 13, Cell 11</td>
+
+        </tr>
+
+        <tr class="data">
+            <th>LVHF (Tone Squelch)</th>
+            <th>40.350 MHz</th>
+            <td class="input_data">Row 14, Cell 3</td>
+            <td class="input_data">Row 14, Cell 4</td>
+            <td class="input_data">Row 14, Cell 5</td>
+            <td class="input_data">Row 14, Cell 6</td>
+            <td class="input_data">Row 14, Cell 7</td>
+            <td class="input_data">Row 14, Cell 8</td>
+            <td class="input_data">Row 14, Cell 9</td>
+            <td class="input_data">Row 14, Cell 10</td>
+            <td class="input_data">Row 14, Cell 11</td>
+
+        </tr>
+
+
+    </table>
+    <br>
+    <hr>
+    <figcaption>NOTE: For Xmit testing, change monitor from narrow band to wide band.</figcaption>
+    <figcaption>* Divide Frequency Error by Frequency to get the PPM (i.e. 575 Hz/115 Mhz = 5 PPM)</figcaption>
+
+
+
+
+    </body>
+    
+</html>
